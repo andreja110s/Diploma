@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"umldiagramsdatabase.classdiagramsolutions"}],"uuid":"f418d4c9babf41bd92faf65107d4ba40"}

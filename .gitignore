@@ -1,0 +1,11 @@
+Diagrams/*Sandbox
+JSLibrary/joint/build/
+JSLibrary/joint/node_modules/
+JSLibrary/joint/coverage/
+JSLibrary/joint/*.log
+JSLibrary/joint/demo/**/dist/**
+Diagrams/ClassDiagram/src/node_modules
+JSLibrary/joint/demo/
+JSLibrary/.DS_Store
+Diagrams/.DS_Store
+.DS_Store

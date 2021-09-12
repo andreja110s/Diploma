@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Home</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/index.css" />
+    </head>
+    <script>
+        function showPopUp() {
+            $("#popUp").show();
+        }
+
+        function closePopUp() {
+            $("#popUp").hide();
+        }
+
+    </script>
+    <body>
+        <div id="popUp" class="popup">
+            Commands:
+            <br>
+            <ul>
+                <li>Right click on paper: menu for saving, loading or grading a graph</li>
+                <li>Double click on paper: create new class</li>
+                <li>Double click on a class and then click on another class: draw a relationship between the two classes</li>
+                <li>Click on gray info icon on class: edit/view class info</li>
+                <li>Click on gray info icon on relationship: edit/view relationship info</li>
+            </ul>
+            <button onclick="closePopUp()">Close</button>
+        </div>
+        This application allows you to draw diagrams and grade them.
+        <br><br>
+        <u><h3>The diagrams available:</h3></u>
+        
+        <ol>
+            <li>
+                CLASS DIAGRAM
+                <br><br>
+                <button onclick="location.href='http://127.0.0.1:5000/ClassDiagram/Draw';">Click here to open the drawing page.</button>
+                <br>
+                <button onclick="showPopUp()">Click here for a usage guide.</button>
+            </li>
+        </ol>
+    </body>
+</html>
