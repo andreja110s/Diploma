@@ -4,11 +4,7 @@ WORKDIR Code
 
 COPY . .
 
-RUN npm install
-
 RUN npm install -g grunt-cli
-
-RUN npm install grunt --save-dev
 
 RUN npm install express --save
 

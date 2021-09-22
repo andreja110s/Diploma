@@ -268,7 +268,7 @@ app.get('/ClassDiagram/Example', async function(req, res) {
         var classDiagramExample = await ClassDiagramExamples.findOne({ diagramName: inputDiagramName }).exec();
 
         if (classDiagramExample == null) {
-            var errorReplyMessage = new ErrorReplyMessage("DB does not contain an example class diagram with name " + diagramName);
+            var errorReplyMessage = new ErrorReplyMessage("DB does not contain an example class diagram with name " + inputDiagramName);
             res.json(errorReplyMessage);
         }
         else {
